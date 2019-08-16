@@ -1,0 +1,36 @@
+{
+  "name": "alipay-mini-lib",
+  "version": "0.0.5",
+  "description": "提供给支付宝小程序依赖的第三方编译包",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "alipay",
+    "mini",
+    "utils"
+  ],
+  "author": "lulin <lulin666000@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-transform-classes": "^7.5.5",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "fast-glob": "^3.0.4",
+    "mocha": "^6.2.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
